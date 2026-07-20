@@ -2,8 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
-import Profile from './components/Profile.jsx'
+import MainContent from './components/MainContent.jsx' 
 import Header from './components/Header.jsx'
+import Footer from './components/Footer.jsx'
+import Button from './components/Button.jsx'
+import Sidebar from './components/Sidebar.jsx'
 import './App.css'
 
 function App() {
@@ -13,29 +16,30 @@ function App() {
   const city = "Pasay";
 
   return ( 
-    // exc 1
-    // <h1>Hello React</h1>
+    <div>
+      {/* exc 1 */}
+      {/* Create a header component render in app */}
+      <Header />
 
-    // exc 2
-    // <h1>Hello {name}</h1>
-
-    <>
-      {/* exc 3 */}
-      {/* <h1>My Favorite Language</h1>
-      <ul>
-        <li>Javascript</li>
-        <li>React</li>
-        <li>Python</li>
-      </ul> */}
-
-      {/* exc 4
-      <h1>Age: {age}</h1>
-      <h1>City: {city}</h1>
+      {/* Create a sidebar component render in app */}
+      {/* exc 4 */}
+      <Sidebar />
 
       {/* exc 5 */}
-      <Profile />
+      {/* Create a maincontent component render in app, it must only render from profile */}
+      <MainContent />
 
-    </>
+      {/* exc 2 */}
+      {/* Create a footer component render in app */}
+      <Footer />
+
+      {/* exc 3 */}
+      {/* Create a button component render in app */}
+      {/* <Button />
+      <Button /> */}
+
+
+    </div>
   );
 }
 
