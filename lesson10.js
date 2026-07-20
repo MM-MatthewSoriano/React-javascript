@@ -59,7 +59,9 @@ getNumber().then(number => {
 });
 
 // challenge question
-// 
+// explain why the output is different
+// console.log directly returns the result right away while setTimeout has to check for the time condition first before it can run the callback function and return the result 
+
 console.log("Start");
 
 setTimeout(() => {
