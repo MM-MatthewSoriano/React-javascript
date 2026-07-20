@@ -15,6 +15,13 @@ const result = button.addEventListener("click",()=>{
     console.log("Button Clicked!");
 });
 
+// exc 4
+// create a paragraph with document.createElement
+
+const newParagraph = document.createElement("p");
+newParagraph.textContent = "I created this with JavaScript.";
+document.body.appendChild(newParagraph);
+
 // exc 5
 // create 3 li elements apple banana orange and append all three to the list
 
@@ -26,13 +33,6 @@ fruits.forEach(fruit => {
     list.appendChild(li);
     console.log(li.textContent);
 });
-
-// exc 4
-// create a paragraph with document.createElement
-
-const newParagraph = document.createElement("p");
-newParagraph.textContent = "I created this with JavaScript.";
-document.body.appendChild(newParagraph);
 
 // challenge question:
 // 1-javascript access the element by id,2-dom will change the text of the element to welcome,3-browser will load it
