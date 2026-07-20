@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import Profile from './components/Profile.jsx'
+import Header from './components/Header.jsx'
 import './App.css'
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
         <li>Python</li>
       </ul> */}
 
-      {/* exc 4 */}
+      {/* exc 4
       <h1>Age: {age}</h1>
       <h1>City: {city}</h1>
 
