@@ -10,10 +10,10 @@ import Sidebar from './components/Sidebar.jsx'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-  const name = "Matt";
-  const age = 22;
-  const city = "Pasay";
+  // const [count, setCount] = useState(0)
+  // const name = "Matt";
+  // const age = 22;
+  // const city = "Pasay";
 
   return ( 
     <div>
