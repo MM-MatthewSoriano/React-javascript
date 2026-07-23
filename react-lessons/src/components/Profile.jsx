@@ -1,4 +1,4 @@
-function Profile({name,age,city,job}) {
+function Profile({ name, age, city, job }) {
     return (
         <div>
             <h2>{name}</h2>
@@ -8,5 +8,4 @@ function Profile({name,age,city,job}) {
         </div>
     );
 }
-
 export default Profile;
